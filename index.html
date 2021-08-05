@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+    <!-- <script defer src="js/skane.js"></script> -->
+    <!-- <script defer src="js/base_control.js"></script> -->
+</head>
+<body>
+    <div id="game">
+        <div class="painelGame">
+            <H1 id="title"> SKANE</H1>
+            <div id="contador" >
+                <p>Pontuação</p>
+                <section class="Placar" id="placar">
+                    0
+                </section>
+            </div>
+           
+            <div>
+                <button id="start" type="button" onclick="let jogo = setInterval(iniciarJogo, 100);">START</button>
+            </div>
+        </div>
+        <canvas id="snake" width="512" height="512"></canvas>
+    </div>
+        
+    
+</body>
+</html>
